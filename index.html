@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c88838535a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/nimma.png"  width="280" height="60">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>     
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cybersecurity & Web solutions expert</p>
+                <h1>Hello,I'm <span>AGILA <br></span>GODSEND<br> From Nakuru,Gilgil.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG-20230624-WA0012 (1).jpg" width="500" height="585">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello,my name is Agila Godsend,an IT student/Cybersecurity & Web solutions enthusiast.
+                        My goal is to help close the gap between security and functionality by creating user-friendly,
+                        secure websites.
+                        Ensuring strong protection against contemporary cyber dangers while developing inventive
+                         digital solutions is my aim.<br>Check out my portfolio for my work!</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>     
+                         <div class="tab-contents active-tab" id="skills">
+                             <ul>
+                        <li><span>Cybersecurity practices</span><br>Knowledgeable in securing web apps,implementing best practices to protect against threats ie.XXS,SQL injection & data breaches.</li>
+                        <li><span>Web Development</span><br>Creating responsive,visually appealing websites.</li>
+                        <li><span>Version control</span><br>Proficient in managing code repositories and collaborating on projects using version control tools to maintain code intergrity and track changes.</li>
+                    </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                       <li><span>2024 - current</span><br>Cybersecurity workshop participant.</li>
+                       <li><span>2021 - 2025</span><br>Team lead at Cellulant Kenya.</li>
+                       <li><span>App Development</span><br>UX/UI Design Executive at Safaricom PLC
+                       Digital Ltd.</li>
+                       <li><span>2021 - 2025</span><br>Internship at cellulant.Contributed to enhancing the company's digital security measures.</li> 
+                   </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                   <li><span>2025</span><br>BSCIT Degree from Zetech University.</li>
+                   <li><span>2021</span><br>KCSE at Jomo kenyatta Boys.</li>
+                   <li><span>2017</span><br>KCPE from St'Joseph Prmary.</li>
+               </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Security Audits</h2>
+                <p> Identify and fix vulnerabilities to ensure your website stays secure and reliable.</p>
+                <a href="#">Learn more.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-key"></i>
+                <h2>IT student/Cybersecurity & Web solutions enthusiast</h2>
+                <p> Protect your digital assets with cutting-edge security strategies tailored to your needs.</p>
+                <a href="#">Learn more.</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-web-awesome"></i>
+                <h2>Web Design & Development</h2>
+                <p>Crafting responsive, user-friendly websites with security at the core.</p>
+                <a href="#">Learn more.</a>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My work</h1>
+    <div class="work-list">
+        <div class="work">
+             <img src="images/0c6a93be68a1cfc37e5fa1fc169de24c.png" style="width: 240px; height: auto;">
+             <div class="layer">
+                <h3>Creative Web solutions</h3>
+                <p>Take a look at a selection of cutting-edge, responsive websites that prioritize security and user experience.
+                </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+       </div>
+       <div class="work">
+            <img src="images/Snapchat-1625523643.jpg" style="width: 240px; height: auto;">
+            <div class="layer">
+                <h3>Cyber security projects</h3>
+                <p>Dive into my security-focused projects, from vulnerability assessments to encryption-based solutions.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+        </div>
+    <div class="work">
+            <img src="images/42af3bea34e285c13ca2396a208f0672.png" style="width: 240px; height: auto;">
+            <div class="layer">
+                <h3>Current innovations</h3>
+                <p>Explore my most recent work, which includes online applications and a point-of-sale system designed to blend security and functionality.
+                </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+       </div>
+       <a href="#" class="btn">See more</a>
+   </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>macknight807@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i></i>0742547933 / 0782739820</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100086008870713"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/shat_ah5?igsh=YnN5bnVzdjBucWdy"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://x.com/Macknight173683?t=N6oGmnZi4yPxwf5ocJTp7g&s=08"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.linkedin.com/in/godsend-lumanya-762908292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="images/image1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>  Agilagodsend.Made by AGILA <i class="fa-solid fa-battery-full"></i></p>
+    </div>
+</div>
+
+
+
+ <script>
+
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+
+ </script>
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0"
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px"
+     }
+
+
+ </script> 
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw1mQY02GFt5LSUBThQf1OnxEFlRnRn2WXsdDfiEqpAjKx-ejkG48P87d02k8hzEeo/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</body>
+</html>
